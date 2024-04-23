@@ -1,0 +1,47 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    background-color: aliceblue;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+.font-weight-bold{
+    color: black !important;
+}
+
+/*div styles*/
+.common{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+}
+.top{
+    top: 0px;
+    left: 0px
+    right: 0px;
+}
+.middle{
+    top: 100px;
+    left: 0px;
+    right: 0px;
+}
+.bottom{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    text-align: center;
+    background-color: rgb(83, 156, 220);
+    font-style: italic;
+    font-weight: bold;
+}
+.laxgirlwid{
+    width: 500px;
+}
+.imgcenter{
+    display: block;
+    margin: auto;
+    border: 5px solid rgb(83, 156, 220);
+}
